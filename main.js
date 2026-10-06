@@ -4,7 +4,7 @@ navToggle?.addEventListener('click',()=>{const open=navToggle.getAttribute('aria
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&navToggle?.getAttribute('aria-expanded')==='true'){navToggle.setAttribute('aria-expanded','false');nav.classList.remove('open');navToggle.focus()}});
 const services={
 announce:{label:'アナウンス',eyebrow:'ANNOUNCE / VOICE WORK',title:['聞いて引き出す','声で届ける'],description:'インタビューを中心に、司会・ナレーションも。届けたい内容と、その場に合う声や進め方をご相談ください。',note:'用途・希望時期・企画の状況からお聞かせください。',action:'声の仕事を見る',href:'work.html'},
-coaching:{label:'コーチング',eyebrow:'COACHING / INDIVIDUAL & TEAM',title:['自分のこれから','チームのこれから'],description:'個人やチームの悩み・目標を対話で整理し、次の一歩を考えるコーチング。',note:'通常1回60分・2万円、対面・オンラインに対応。税区分・継続条件は最終確認中です。',action:'コーチングを見る',href:'dialogue.html#coaching'},
+coaching:{label:'コーチング',eyebrow:'COACHING / INDIVIDUAL & TEAM',title:['自分のこれから','チームのこれから'],description:'個人やチームの悩み・目標を対話で整理し、次の一歩を考えるコーチング。',note:'対面・オンラインに対応。目標とご希望に合わせて、内容と料金を個別にご相談いただけます。',action:'コーチングを見る',href:'dialogue.html#coaching'},
 kids:{label:'KIDS',eyebrow:'KIDS / PROGRAM CONCEPT',title:['自分で考え','人と関わり 伝える力を'],description:'インタビューを通じて、自分で考え、人と関わり、伝える力を育む。これから社会で生きていくために大切な経験を重ねるプログラムを目指しています。',note:'構想段階です。募集・対象年齢・日時・会場・料金は未確定です。',action:'体験の構想を見る',href:'dialogue.html#kids'},
 thankyou:{label:'Thank you Celebration',eyebrow:'THANK YOU CELEBRATION / ご案内準備中',title:['ありがとうを','今 伝える時間'],description:'大切な人に感謝を伝える会を、どのようにお手伝いするか。Thank you Celebrationは、生前葬をテーマにした活動です。詳しい内容は準備中です。',note:'開催形式・支援範囲・料金・受付は未確定です。',action:'準備状況を見る',href:'dialogue.html#thankyou'},
 training:{label:'講演・研修',eyebrow:'TALKS & TRAINING',title:['話す 聞く 伝えるを','学びの時間に'],description:'インタビューや司会の経験を活かした、聞き方・伝え方の講演・研修。テーマや対象に合わせて、内容をご相談いただけます。',note:'仮の説明です。具体的なテーマや事例は、中願寺さん確認待ちです。',action:'講演・研修を見る',href:'work.html#training'}
