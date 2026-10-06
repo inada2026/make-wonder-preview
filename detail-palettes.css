@@ -1,0 +1,21 @@
+/* Lower sections inherit the five approved comparison palettes. */
+body.design-01.sales-review{--navy:#f6f0e6;--deep:#eee4d5;--paper:#fffcf5;--gold:#806344;--muted:#655a4d;--detail-text:#433a31;--detail-button:#fffcf5;--detail-rule:#cabcaa}
+body.design-02.sales-review{--detail-text:#f8f3e8;--detail-button:#112b3b;--detail-rule:#48606d;--detail-person:#e8dfcf}
+body.design-03.sales-review{--navy:#fcfffd;--deep:#e7f4ef;--paper:#f4f9f6;--gold:#775d37;--muted:#395d55;--detail-text:#193f3d;--detail-button:#fff;--detail-rule:#9ec9bd}
+body.design-04.sales-review{--navy:#fff;--deep:#edf1f6;--paper:#f7f9fc;--gold:#233e5a;--muted:#52647a;--detail-text:#233e5a;--detail-button:#fff;--detail-rule:#b9c5d1}
+body.design-05.sales-review{--navy:#f4eddf;--deep:#e8deca;--paper:#fbf6ed;--gold:#994b2b;--muted:#506154;--detail-text:#203f35;--detail-button:#fff;--detail-rule:#b4baab}
+body.sales-review{background:var(--navy);color:var(--detail-text)}
+.sales-review .design-toolbar{background:var(--deep);color:var(--gold);border-color:var(--detail-rule)}
+.sales-review .design-toolbar button{color:var(--gold);border-color:var(--detail-rule)}
+.sales-review .button{background:var(--gold);color:var(--detail-button)}
+.sales-review .sales-intent,.sales-review .sales-process{background:var(--paper)}
+.sales-review .sales-person{background:var(--detail-person,var(--deep))}
+.sales-review .sales-final{background:var(--deep)}
+.sales-review .sales-final .eyebrow{color:var(--detail-text)}
+.sales-review .sales-person,.sales-review .sales-intent,.sales-review .sales-process{color:#152e3f}
+.sales-review .sales-image figcaption{color:var(--muted)}
+.sales-review .sales-number{color:var(--gold);opacity:.3}
+.sales-review .sales-category-conditions dt,.sales-review .sales-other-work span,.sales-review .sales-activities .wrap>a>span{color:var(--gold)}
+.sales-review .sales-category-conditions,.sales-review .sales-category-conditions>div,.sales-review .sales-service-row,.sales-review .sales-other-work,.sales-review .sales-other-work a+a,.sales-review .sales-activities .wrap>a{border-color:var(--detail-rule)}
+.sales-review .sales-process .button{background:#152e3f;color:#fff}
+.sales-review .sales-image img{aspect-ratio:3/2;object-fit:contain}

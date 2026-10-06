@@ -1,0 +1,21 @@
+/* Bonus-inspired motion, scoped to the additional comparison variants. */
+.motion-edition .portrait,.motion-edition .person{animation:none!important;clip-path:none!important}
+.motion-edition .display-brand,.motion-edition .service-content{animation:none!important}
+.motion-edition.design-01{--gold:#8c7047;--darkgold:#806039}
+.motion-edition.design-01 .button{background:linear-gradient(120deg,#e8d2a4,#f0e1bf 52%,#dcc292);border-color:#b99a65;color:#433a31}
+.motion-edition.design-01 .button:hover{background:linear-gradient(120deg,#efddb7,#f7ebd1 52%,#e6cea0)}
+.motion-edition.design-01 .portrait{background:linear-gradient(140deg,#e7d7bacc,#fbf5eabb);border-color:#bd9e69}
+.motion-edition.design-01 .motion-glow{background:linear-gradient(115deg,transparent 26%,#edd5a130 47%,transparent 68%);animation-duration:18s}
+.motion-edition .service-stage{position:relative;isolation:isolate}
+.motion-glow{position:absolute;inset:140px -25% 0;z-index:-1;pointer-events:none;background:linear-gradient(115deg,transparent 25%,color-mix(in srgb,var(--gold) 13%,transparent) 45%,transparent 65%);animation:motion-light 14s ease-in-out infinite alternate}
+.design-03 .motion-glow{background:radial-gradient(ellipse at 25% 40%,#67c8b331,transparent 65%)}
+.design-05 .motion-glow{background:linear-gradient(125deg,transparent 25%,#c7774030 45%,transparent 65%)}
+@keyframes motion-light{from{transform:translateX(-7%)}to{transform:translateX(7%)}}
+.motion-edition .button{position:relative;overflow:hidden;transition:box-shadow .3s,background-color .3s}
+.motion-edition .button::before{content:'';position:absolute;inset:-50% auto -50% -65%;width:45%;background:linear-gradient(100deg,transparent,#ffffff40,transparent);transform:skewX(-20deg);transition:left .65s;pointer-events:none}
+.motion-edition .button:hover::before,.motion-edition .button:focus-visible::before{left:130%}
+.motion-edition .button:hover{box-shadow:0 7px 22px #153b3a1a}
+.motion-edition .work-list a{transition:background-color .3s,padding-left .3s}
+.motion-edition .work-list a:hover{padding-left:10px;background:color-mix(in srgb,var(--gold) 7%,transparent)}
+
+@media(prefers-reduced-motion:reduce){.motion-edition .motion-glow{animation:none}.motion-edition .button,.motion-edition .work-list a{transition:none}.motion-edition .button::before{display:none}}
