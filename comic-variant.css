@@ -1,0 +1,6 @@
+.comic-variant{--navy:#102e54;--deep:#092344;--paper:#f5f7fb;--gold:#d8b56f;--muted:#c9d9eb;background:#102e54}
+.commission-comic{padding:90px 0;background:#102e54;color:#f5f7fb;border-top:1px solid #476487}
+.comic-intro{max-width:780px;margin-bottom:42px}.comic-intro h2{font-size:clamp(30px,4vw,50px);line-height:1.5;margin:12px 0 20px}.comic-intro p{line-height:1.9}
+.comic-layout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,.8fr);gap:55px;align-items:start}.comic-layout figure{margin:0;min-width:0}.comic-layout img{display:block;width:100%;height:auto;border:1px solid #c4d3e4;border-radius:4px}.comic-layout figcaption{font-size:12px;line-height:1.8;color:#c9d9eb;padding-top:12px}
+.comic-summary{position:sticky;top:32px;padding:30px 0}.comic-summary h3{font-size:clamp(26px,3vw,36px);line-height:1.65;margin:12px 0 22px}.comic-summary p,.comic-summary li{line-height:1.9}.comic-summary ul{padding-left:1.2em;margin:28px 0}.comic-scope{font-size:14px;color:#c9d9eb}.comic-summary .button{margin:24px 0 14px}.comic-summary .text-action{display:block}
+@media(max-width:760px){.commission-comic{padding:56px 0}.comic-layout{grid-template-columns:minmax(0,1fr);gap:24px}.comic-summary{position:static;padding:8px 0}.comic-intro{margin-bottom:28px}.comic-layout figcaption{font-size:11px}}
